@@ -14,8 +14,8 @@ Please contact the publisher team at Tremor Video to download the latest SDK. SD
 - Improved logging
 - Bug fixes
 
-# Upgrading your SDK to v3.12.0
-## Upgrading to SDK 3.12.0 from SDK 3.10.0 and above
+# Updating your SDK to v3.12.0 from earlier version
+## Upgrading to SDK 3.12.0 from SDK 3.10.x and 3.11.x
 In SDK 3.11 below, Tremor iOS SDK was provided as a static library. In SDK v3.12.0, Tremor Video’s SDK is provided as a framework. Here are two steps for you the upgrade to SDK 3.12.0 to use the new framework.
 
 1. Remove the static libary libTremorVideoAd.a and header file TremorVideoAd.h
