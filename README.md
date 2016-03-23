@@ -14,6 +14,18 @@ Please contact the publisher team at Tremor Video to download the latest SDK. SD
 - Improved logging
 - Bug fixes
 
+# OS Support
+- iOS 6 is the minimum OS version supported iOS release
+- App Transport Security (ATS) is the default setting in iOS 9, which requires apps to make
+network calls only over SSL. We are working with our partners to facilitate the transition to support this change to ensure compliance. In the meantime, if you want to release apps that support iOS9, you will need to disable ATS in order to ensure everything continues to work as expected. To do so, just add the following to the plist of your apps:
+```
+        <key>NSAppTransportSecurity</key> 
+        <dict>
+          <key>NSAllowsArbitraryLoads</key>
+          <true/>
+        </dict>
+```
+
 # SDK integration
 - If you have already integrated Tremor iOS SDK in your applications, please review [Update from Earlier Versions](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/Updating-from-Earlier-Versions) to update your SDK to the latest SDK.
 - If you are new users of Tremor iOS SDk, please review [iOS Library Integration] (https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-Library-Integration) which contains detailed integration instructions.
