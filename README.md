@@ -27,7 +27,7 @@ network calls only over SSL. We are working with our partners to facilitate the 
           <true/>
         </dict>
 ```
-- Add `Bundle display name` to the plist of your apps. For instance
+- Add `Bundle display name` to the plist of your apps for iOS 9. For instance
 ```
 	<key>CFBundleDisplayName</key>
 	<string>Bundle Display Name</string>
