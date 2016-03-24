@@ -18,14 +18,19 @@ Please contact the publisher team at Tremor Video to download the latest SDK. SD
 # OS Support and iOS 9
 - iOS 6 is the minimum OS version supported iOS release
 - SDK 3.12 is compiled with bitcode
-- App Transport Security (ATS) is the default setting in iOS 9, which requires apps to make
-network calls only over SSL. We are working with our partners to facilitate the transition to support this change to ensure compliance. In the meantime, if you want to release apps that support iOS9, you will need to disable ATS in order to ensure everything continues to work as expected. To do so, just add the following to the plist of your apps:
+- In iOS 9, App Transport Security (ATS) is the default setting, which requires apps to make
+network calls only over SSL. We are working with our partners to facilitate the transition to support this change to ensure compliance. In the meantime, if you want to release apps that support iOS 9, you will need to disable ATS in order to ensure everything continues to work as expected. To do so, just add the following to the plist of your apps:
 ```
         <key>NSAppTransportSecurity</key> 
         <dict>
           <key>NSAllowsArbitraryLoads</key>
           <true/>
         </dict>
+```
+- Add `Bundle display name` to the plist of your apps. For instance
+```
+	<key>CFBundleDisplayName</key>
+	<string>Bundle Display Name</string>
 ```
 
 # Orientation
