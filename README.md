@@ -4,7 +4,7 @@
 - Release Date: 3/21/2016
 
 # To Download
-Please [contact the publisher team](PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. SDK 3.12 contains
+Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. SDK 3.12 contains
 - TremorVideoAd.framework
 - Tremor Video iOS SDK.pdf (SDK integration documentation)
 - sample (a sample app)
