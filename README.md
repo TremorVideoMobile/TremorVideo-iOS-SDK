@@ -1,7 +1,8 @@
 # TremorVideo-iOS-SDK
 
 - SDK Version: 3.12.0
-- Release Date: 3/21/2016 (Please visit [iOS SDK Releases Notes](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.)
+- Release Date: 3/21/2016
+- Relesee Notes: Please visit [iOS SDK Releases Notes](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.)
 
 # To Download
 Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. SDK 3.12 contains
