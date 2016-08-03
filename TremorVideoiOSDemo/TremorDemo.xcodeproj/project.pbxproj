@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C19E6211CD160BB00B1C736 /* TremorVideoAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C19E6201CD160BB00B1C736 /* TremorVideoAd.framework */; };
+		0C2288A01CD2D2D2002E331A /* TremorNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22889F1CD2D2D2002E331A /* TremorNavigationViewController.swift */; };
+		0C4ADAEB1CD1915E008D0F69 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADADA1CD1915E008D0F69 /* Accounts.framework */; };
+		0C4ADAEC1CD1915E008D0F69 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADADB1CD1915E008D0F69 /* AdSupport.framework */; };
+		0C4ADAED1CD1915E008D0F69 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADADC1CD1915E008D0F69 /* AssetsLibrary.framework */; };
+		0C4ADAEE1CD1915E008D0F69 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADADD1CD1915E008D0F69 /* AudioToolbox.framework */; };
+		0C4ADAEF1CD1915E008D0F69 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADADE1CD1915E008D0F69 /* AVFoundation.framework */; };
+		0C4ADAF01CD1915E008D0F69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADADF1CD1915E008D0F69 /* CoreGraphics.framework */; };
+		0C4ADAF11CD1915E008D0F69 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE01CD1915E008D0F69 /* CoreLocation.framework */; };
+		0C4ADAF21CD1915E008D0F69 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE11CD1915E008D0F69 /* CoreMedia.framework */; };
+		0C4ADAF31CD1915E008D0F69 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE21CD1915E008D0F69 /* CoreTelephony.framework */; };
+		0C4ADAF41CD1915E008D0F69 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE31CD1915E008D0F69 /* libSystem.tbd */; };
+		0C4ADAF51CD1915E008D0F69 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE41CD1915E008D0F69 /* libz.tbd */; };
+		0C4ADAF61CD1915E008D0F69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE51CD1915E008D0F69 /* MapKit.framework */; };
+		0C4ADAF71CD1915E008D0F69 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE61CD1915E008D0F69 /* MediaPlayer.framework */; };
+		0C4ADAF81CD1915E008D0F69 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE71CD1915E008D0F69 /* MessageUI.framework */; };
+		0C4ADAF91CD1915E008D0F69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE81CD1915E008D0F69 /* QuartzCore.framework */; };
+		0C4ADAFA1CD1915E008D0F69 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAE91CD1915E008D0F69 /* SystemConfiguration.framework */; };
+		0C4ADAFB1CD1915E008D0F69 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4ADAEA1CD1915E008D0F69 /* Twitter.framework */; };
+		0C5867421CCED95C001072B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5867411CCED95C001072B8 /* AppDelegate.swift */; };
+		0C5867441CCED95C001072B8 /* PreLoadAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5867431CCED95C001072B8 /* PreLoadAdViewController.swift */; };
+		0C5867471CCED95C001072B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5867451CCED95C001072B8 /* Main.storyboard */; };
+		0C5867491CCED95C001072B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5867481CCED95C001072B8 /* Assets.xcassets */; };
+		0C5867541CCED98B001072B8 /* TremorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5867531CCED98B001072B8 /* TremorTableViewController.swift */; };
+		0C7BD4E71CD1A09D001DD62A /* ShowImmediatelyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BD4E61CD1A09D001DD62A /* ShowImmediatelyViewController.swift */; };
+		0CC33F1E1CD3FE7000CEFFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC33F1D1CD3FE7000CEFFF3 /* LaunchScreen.storyboard */; };
+		E8759ED31CF4D1ED00D20789 /* ShowBackToBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8759ED21CF4D1ED00D20789 /* ShowBackToBackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C19E6201CD160BB00B1C736 /* TremorVideoAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TremorVideoAd.framework; sourceTree = "<group>"; };
+		0C19E6221CD1617B00B1C736 /* TremorDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TremorDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C22889F1CD2D2D2002E331A /* TremorNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TremorNavigationViewController.swift; sourceTree = "<group>"; };
+		0C4ADADA1CD1915E008D0F69 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		0C4ADADB1CD1915E008D0F69 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0C4ADADC1CD1915E008D0F69 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0C4ADADD1CD1915E008D0F69 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0C4ADADE1CD1915E008D0F69 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0C4ADADF1CD1915E008D0F69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C4ADAE01CD1915E008D0F69 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0C4ADAE11CD1915E008D0F69 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0C4ADAE21CD1915E008D0F69 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0C4ADAE31CD1915E008D0F69 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		0C4ADAE41CD1915E008D0F69 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0C4ADAE51CD1915E008D0F69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0C4ADAE61CD1915E008D0F69 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0C4ADAE71CD1915E008D0F69 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0C4ADAE81CD1915E008D0F69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0C4ADAE91CD1915E008D0F69 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0C4ADAEA1CD1915E008D0F69 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		0C58673E1CCED95C001072B8 /* TremorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5867411CCED95C001072B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C5867431CCED95C001072B8 /* PreLoadAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoadAdViewController.swift; sourceTree = "<group>"; };
+		0C5867461CCED95C001072B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C5867481CCED95C001072B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C58674D1CCED95C001072B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5867531CCED98B001072B8 /* TremorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TremorTableViewController.swift; sourceTree = "<group>"; };
+		0C7BD4E61CD1A09D001DD62A /* ShowImmediatelyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImmediatelyViewController.swift; sourceTree = "<group>"; };
+		0CC33F1D1CD3FE7000CEFFF3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8759ED21CF4D1ED00D20789 /* ShowBackToBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBackToBackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C58673B1CCED95C001072B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4ADAEB1CD1915E008D0F69 /* Accounts.framework in Frameworks */,
+				0C4ADAEC1CD1915E008D0F69 /* AdSupport.framework in Frameworks */,
+				0C4ADAED1CD1915E008D0F69 /* AssetsLibrary.framework in Frameworks */,
+				0C4ADAEE1CD1915E008D0F69 /* AudioToolbox.framework in Frameworks */,
+				0C4ADAEF1CD1915E008D0F69 /* AVFoundation.framework in Frameworks */,
+				0C4ADAF01CD1915E008D0F69 /* CoreGraphics.framework in Frameworks */,
+				0C4ADAF11CD1915E008D0F69 /* CoreLocation.framework in Frameworks */,
+				0C4ADAF21CD1915E008D0F69 /* CoreMedia.framework in Frameworks */,
+				0C4ADAF31CD1915E008D0F69 /* CoreTelephony.framework in Frameworks */,
+				0C4ADAF41CD1915E008D0F69 /* libSystem.tbd in Frameworks */,
+				0C4ADAF51CD1915E008D0F69 /* libz.tbd in Frameworks */,
+				0C4ADAF61CD1915E008D0F69 /* MapKit.framework in Frameworks */,
+				0C4ADAF71CD1915E008D0F69 /* MediaPlayer.framework in Frameworks */,
+				0C4ADAF81CD1915E008D0F69 /* MessageUI.framework in Frameworks */,
+				0C4ADAF91CD1915E008D0F69 /* QuartzCore.framework in Frameworks */,
+				0C4ADAFA1CD1915E008D0F69 /* SystemConfiguration.framework in Frameworks */,
+				0C4ADAFB1CD1915E008D0F69 /* Twitter.framework in Frameworks */,
+				0C19E6211CD160BB00B1C736 /* TremorVideoAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5867351CCED95C001072B8 = {
+			isa = PBXGroup;
+			children = (
+				A01E2FBD1D0E74BA0014F82F /* Framework */,
+				0C5867401CCED95C001072B8 /* TremorDemo */,
+				0C58673F1CCED95C001072B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C58673F1CCED95C001072B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C58673E1CCED95C001072B8 /* TremorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C5867401CCED95C001072B8 /* TremorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E8759ED21CF4D1ED00D20789 /* ShowBackToBackViewController.swift */,
+				0C22889F1CD2D2D2002E331A /* TremorNavigationViewController.swift */,
+				0C5867531CCED98B001072B8 /* TremorTableViewController.swift */,
+				0C5867431CCED95C001072B8 /* PreLoadAdViewController.swift */,
+				0C7BD4E61CD1A09D001DD62A /* ShowImmediatelyViewController.swift */,
+				0C5867411CCED95C001072B8 /* AppDelegate.swift */,
+				0CC33F1D1CD3FE7000CEFFF3 /* LaunchScreen.storyboard */,
+				0C5867451CCED95C001072B8 /* Main.storyboard */,
+				0C5867481CCED95C001072B8 /* Assets.xcassets */,
+				0C58674D1CCED95C001072B8 /* Info.plist */,
+				0C19E6221CD1617B00B1C736 /* TremorDemo-Bridging-Header.h */,
+			);
+			path = TremorDemo;
+			sourceTree = "<group>";
+		};
+		A01E2FBD1D0E74BA0014F82F /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0C4ADADA1CD1915E008D0F69 /* Accounts.framework */,
+				0C4ADADB1CD1915E008D0F69 /* AdSupport.framework */,
+				0C4ADADC1CD1915E008D0F69 /* AssetsLibrary.framework */,
+				0C4ADADD1CD1915E008D0F69 /* AudioToolbox.framework */,
+				0C4ADADE1CD1915E008D0F69 /* AVFoundation.framework */,
+				0C4ADADF1CD1915E008D0F69 /* CoreGraphics.framework */,
+				0C4ADAE01CD1915E008D0F69 /* CoreLocation.framework */,
+				0C4ADAE11CD1915E008D0F69 /* CoreMedia.framework */,
+				0C4ADAE21CD1915E008D0F69 /* CoreTelephony.framework */,
+				0C4ADAE31CD1915E008D0F69 /* libSystem.tbd */,
+				0C4ADAE41CD1915E008D0F69 /* libz.tbd */,
+				0C4ADAE51CD1915E008D0F69 /* MapKit.framework */,
+				0C4ADAE61CD1915E008D0F69 /* MediaPlayer.framework */,
+				0C4ADAE71CD1915E008D0F69 /* MessageUI.framework */,
+				0C4ADAE81CD1915E008D0F69 /* QuartzCore.framework */,
+				0C4ADAE91CD1915E008D0F69 /* SystemConfiguration.framework */,
+				0C4ADAEA1CD1915E008D0F69 /* Twitter.framework */,
+				0C19E6201CD160BB00B1C736 /* TremorVideoAd.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C58673D1CCED95C001072B8 /* TremorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5867501CCED95C001072B8 /* Build configuration list for PBXNativeTarget "TremorDemo" */;
+			buildPhases = (
+				0C58673A1CCED95C001072B8 /* Sources */,
+				0C58673B1CCED95C001072B8 /* Frameworks */,
+				0C58673C1CCED95C001072B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TremorDemo;
+			productName = TremorDemo;
+			productReference = 0C58673E1CCED95C001072B8 /* TremorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C5867361CCED95C001072B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tremor Video";
+				TargetAttributes = {
+					0C58673D1CCED95C001072B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0C5867391CCED95C001072B8 /* Build configuration list for PBXProject "TremorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C5867351CCED95C001072B8;
+			productRefGroup = 0C58673F1CCED95C001072B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C58673D1CCED95C001072B8 /* TremorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C58673C1CCED95C001072B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC33F1E1CD3FE7000CEFFF3 /* LaunchScreen.storyboard in Resources */,
+				0C5867491CCED95C001072B8 /* Assets.xcassets in Resources */,
+				0C5867471CCED95C001072B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C58673A1CCED95C001072B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7BD4E71CD1A09D001DD62A /* ShowImmediatelyViewController.swift in Sources */,
+				0C5867441CCED95C001072B8 /* PreLoadAdViewController.swift in Sources */,
+				0C5867541CCED98B001072B8 /* TremorTableViewController.swift in Sources */,
+				0C2288A01CD2D2D2002E331A /* TremorNavigationViewController.swift in Sources */,
+				E8759ED31CF4D1ED00D20789 /* ShowBackToBackViewController.swift in Sources */,
+				0C5867421CCED95C001072B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C5867451CCED95C001072B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5867461CCED95C001072B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C58674E1CCED95C001072B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C58674F1CCED95C001072B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C5867511CCED95C001072B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TremorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tremor.TremorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TremorDemo/TremorDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C5867521CCED95C001072B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TremorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tremor.TremorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TremorDemo/TremorDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5867391CCED95C001072B8 /* Build configuration list for PBXProject "TremorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C58674E1CCED95C001072B8 /* Debug */,
+				0C58674F1CCED95C001072B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5867501CCED95C001072B8 /* Build configuration list for PBXNativeTarget "TremorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5867511CCED95C001072B8 /* Debug */,
+				0C5867521CCED95C001072B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C5867361CCED95C001072B8 /* Project object */;
+}
