@@ -1,27 +1,24 @@
 # TremorVideo-iOS-SDK
 
-- SDK Version: 3.12.1
-- Release Date: May 16th, 2016
+- SDK Version: 3.13
+- Release Date: September, 2016
 - Relesee Notes: Please visit [iOS SDK Releases Notes](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.)
 
 # To Download
-Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. SDK 3.12 contains
+Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. SDK 3.13 contains
 - TremorVideoAd.framework
 - Tremor Video iOS SDK.pdf (SDK integration documentation)
 - sample (a sample app)
 
-# New in SDK 3.12.0
-- Tremor Video’s SDK is provided as a framework. Please follow SDK integration note below to update installation of the Tremor SDK
-- Added new ad formats and MOAT viewability measurement. Integrating this SDK will help improving your fill rate.
-- Fixed an ad rendering bug when split screen is enabled in iOS 9 + iPad
-- Improved logging
+# New in SDK 3.13.0
+- Fully tested for iOS 10
+- Internal urls are now HTTPS, in preparation to be ATS compliant.
 - Bug fixes
 
-# OS Support and iOS 9
-- iOS 6 is the minimum OS version supported iOS release
-- SDK 3.12 is compiled with bitcode
-- In iOS 9, App Transport Security (ATS) is the default setting, which requires apps to make
-network calls only over SSL. We are working with our partners to facilitate the transition to support this change to ensure compliance. In the meantime, if you want to release apps that support iOS 9, you will need to disable ATS in order to ensure everything continues to work as expected. To do so, just add the following to the plist of your apps:
+# OS Support and iOS 10
+- iOS 7 is the minimum OS version supported iOS release
+- In iOS 9 and 10, App Transport Security (ATS) is the default setting, which requires apps to make
+network calls only over SSL. We are working with our partners to facilitate the transition to support this change to ensure compliance. In the meantime, if you want to release apps that support iOS 9/10, you will need to disable ATS in order to ensure everything continues to work as expected. To do so, just add the following to the plist of your apps:
 ```
         <key>NSAppTransportSecurity</key> 
         <dict>
@@ -34,6 +31,7 @@ network calls only over SSL. We are working with our partners to facilitate the 
 	<key>CFBundleDisplayName</key>
 	<string>Bundle Display Name</string>
 ```
+- Add 'NSPhotoLibraryUsageDescription' to your plist to allow users to save images from ads.
 
 # Orientation
 Tremor SDK requires applications to support all orientations, both portrait and landscape. If your application does not support landscape mode, you should ensure the UI in your application is portrait only. Here is an example (for iOS 6 and later):
