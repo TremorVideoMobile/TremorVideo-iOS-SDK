@@ -67,7 +67,7 @@ class ShowBackToBackViewController: UIViewController, TremorVideoAdDelegate {
     func adReady(_ success: Bool) {
         if(success){
             // show the loaded ad after adReady(true) has been called
-            TremorVideoAd.showAd(self)
+            TremorVideoAd.showAd(forParentViewController: self)
         }
         else {
             // an ad could not be loaded at this time

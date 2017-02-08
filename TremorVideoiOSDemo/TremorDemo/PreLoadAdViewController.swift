@@ -77,7 +77,7 @@ class PreLoadAdViewController: UIViewController, TremorVideoAdDelegate {
     // Once adReady(true) has been called, show the ad
     @IBAction func showAd(_ sender: AnyObject) {
         if(TremorVideoAd.isAdReady()){
-            TremorVideoAd.showAd(self)
+            TremorVideoAd.showAd(forParentViewController: self)
         }
     }
 
