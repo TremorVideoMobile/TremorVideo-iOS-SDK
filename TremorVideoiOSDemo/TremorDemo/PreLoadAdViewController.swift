@@ -54,28 +54,28 @@ class PreLoadAdViewController: UIViewController, TremorVideoAdDelegate {
         
         // initialize the "Show Ad" button
         self.adTitle.text = self.adType
-        showAdButton.setBackgroundImage(UIImage(named: "grey"), forState: UIControlState.Disabled)
-        showAdButton.setTitleColor(UIColor.grayColor(), forState: UIControlState.Disabled)
+        showAdButton.setBackgroundImage(UIImage(named: "grey"), for: UIControlState.disabled)
+        showAdButton.setTitleColor(UIColor.gray, for: UIControlState.disabled)
     }
     
     // To request an ad, call loadAd
-    @IBAction func loadAd(sender: AnyObject) {
+    @IBAction func loadAd(_ sender: AnyObject) {
         TremorVideoAd.loadAd()
     }
     
     // After the ad has been received, this TremorVideoAdDelegate method is called
     // If the ad fails to download, success will equal false
-    func adReady(success: Bool) {
+    func adReady(_ success: Bool) {
         if(success){
-            showAdButton.enabled = true
+            showAdButton.isEnabled = true
         }
         let message = "Ad Ready: \(success)\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
         
     }
     
     // Once adReady(true) has been called, show the ad
-    @IBAction func showAd(sender: AnyObject) {
+    @IBAction func showAd(_ sender: AnyObject) {
         if(TremorVideoAd.isAdReady()){
             TremorVideoAd.showAd(self)
         }
@@ -84,25 +84,25 @@ class PreLoadAdViewController: UIViewController, TremorVideoAdDelegate {
     // After the video has started, this TremorVideoAdDelegate method is called
     func adStart() {
         let message = "Ad Started\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
     }
     
     // If the user skips an ad, this TremorVideoAdDelegate method is called
     func adSkipped() {
         let message = "Ad skipped by the user\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
         
     }
     // When the ad is no longer playing, this TremorVideoAdDelegate method is called
-    func adComplete(success: Bool, responseCode: Int) {
-        showAdButton.enabled = false
+    func adComplete(_ success: Bool, responseCode: Int) {
+        showAdButton.isEnabled = false
         let message = "Ad Complete: \(success)\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
     }
 
     // This viewController is given to TremorVideoAd to show the ad. Therefore, it needs to support all orientations
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.All
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.all
     }
 
 

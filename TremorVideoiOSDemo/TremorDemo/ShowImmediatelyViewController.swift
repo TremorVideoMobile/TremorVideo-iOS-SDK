@@ -56,7 +56,7 @@ class ShowImmediatelyViewController: UIViewController, TremorVideoAdDelegate {
     }
     
     // To request an ad, call loadAd
-    @IBAction func loadAd(sender: AnyObject) {
+    @IBAction func loadAd(_ sender: AnyObject) {
         
         TremorVideoAd.loadAd()
         self.showLoadingView()
@@ -64,7 +64,7 @@ class ShowImmediatelyViewController: UIViewController, TremorVideoAdDelegate {
     
     // After the ad has been received, this TremorVideoAdDelegate method is called
     // If the ad fails to download, success will equal false
-    func adReady(success: Bool) {
+    func adReady(_ success: Bool) {
         if(success){
             // show the loaded ad after adReady(true) has been called
             TremorVideoAd.showAd(self)
@@ -74,27 +74,27 @@ class ShowImmediatelyViewController: UIViewController, TremorVideoAdDelegate {
             self.hideLoadingView()
         }
         let message = "Ad Ready: \(success)\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
     }
     
     // If the user skips an ad, this TremorVideoAdDelegate method is called
     func adSkipped() {
         let message = "Ad skipped by the user\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
     }
     
     // After the ad has started, this TremorVideoAdDelegate method is called
     func adStart() {
         self.hideLoadingView()
         let message = "Ad Started\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
     }
     
     // When the ad is no longer playing, this TremorVideoAdDelegate method is called
-    func adComplete(success: Bool, responseCode: Int) {
+    func adComplete(_ success: Bool, responseCode: Int) {
         self.hideLoadingView()
         let message = "Ad Complete: \(success)\n"
-        self.messageTextView.text.appendContentsOf(message)
+        self.messageTextView.text.append(message)
     }    
     
     // A loading screen can be shown after loadAd is called
@@ -102,12 +102,12 @@ class ShowImmediatelyViewController: UIViewController, TremorVideoAdDelegate {
         if self.blackScreen == nil {
             self.blackScreen = UIView()
             self.blackScreen?.frame = self.view.bounds
-            self.blackScreen?.backgroundColor = UIColor.blackColor()
+            self.blackScreen?.backgroundColor = UIColor.black
             self.view.addSubview(self.blackScreen!)
             
-            self.activityIndicator = UIActivityIndicatorView.init(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
+            self.activityIndicator = UIActivityIndicatorView.init(activityIndicatorStyle: UIActivityIndicatorViewStyle.whiteLarge)
             self.activityIndicator?.center = CGPoint(x: view.frame.size.width/2, y: view.frame.size.height/2)
-            self.activityIndicator?.autoresizingMask = [.FlexibleLeftMargin,.FlexibleRightMargin,.FlexibleTopMargin, .FlexibleBottomMargin]
+            self.activityIndicator?.autoresizingMask = [.flexibleLeftMargin,.flexibleRightMargin,.flexibleTopMargin, .flexibleBottomMargin]
             self.activityIndicator?.startAnimating()
             self.view.addSubview(activityIndicator!)
         }
@@ -122,8 +122,8 @@ class ShowImmediatelyViewController: UIViewController, TremorVideoAdDelegate {
     }
     
     // This viewController is given to TremorVideoAd to show the ad. Therefore, it needs to support all orientations
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.All
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.all
     }
 
 

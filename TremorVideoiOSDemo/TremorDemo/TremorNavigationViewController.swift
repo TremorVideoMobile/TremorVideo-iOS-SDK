@@ -18,17 +18,17 @@ class TremorNavigationViewController: UINavigationController {
         super.didReceiveMemoryWarning()
     }
 
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return true;
     }
     
     // defer to the supported orientations of the view controller being shown
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return (self.topViewController?.supportedInterfaceOrientations())!
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return (self.topViewController?.supportedInterfaceOrientations)!
     }
     
-    override func preferredInterfaceOrientationForPresentation() -> UIInterfaceOrientation {
-        return (self.topViewController?.preferredInterfaceOrientationForPresentation())!
+    override var preferredInterfaceOrientationForPresentation : UIInterfaceOrientation {
+        return (self.topViewController?.preferredInterfaceOrientationForPresentation)!
     }
 
 
