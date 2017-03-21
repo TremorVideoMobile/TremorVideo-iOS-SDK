@@ -40,7 +40,7 @@ Tremor SDK requires applications to support all orientations, both portrait and 
 - If you have already integrated Tremor iOS SDK in your applications, please review [Update from Earlier Versions](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/Updating-from-Earlier-Versions) to update your SDK to the latest SDK.
 - If you are new users of Tremor iOS SDK, please review [iOS Library Integration] (https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-Library-Integration) which contains detailed integration instructions.
 - [Tremor Video iOS API Doc] (http://tremorvideomobile.github.io/iOS) contains details about each API definitions.
-- This project also includes a sample which demostrates how to integration iOS SDK into your application.
+- This project also includes a sample which demostrates how to integrate the iOS SDK into your application.
 
 # SDK Integration through mediation
 Tremor supports iOS mediation including FreeWheel, Google AdMob/DFP, Fyber, Mopub (as a custom network). [iOS SDK Mediation](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Mediation) contains all the details on how to integrate Tremor SDK through the mediaitons. If you integrate Tremor SDK through mediation, you should always go through this documentation to know the requirements to configure your applicaton in order to use Tremor SDK.
