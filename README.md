@@ -1,27 +1,18 @@
 # TremorVideo-iOS-SDK
 
-- SDK Version: 3.13
-- Release Date: September 12, 2016
+- SDK Version: 3.14
+- Release Date: April 12, 2017
 - Relesee Notes: Please visit [iOS SDK Releases Notes](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.)
 
 # To Download
 Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. 
 
-# New in SDK 3.13.0
-- Fully tested for iOS 10
-- Internal urls are now HTTPS, in preparation to be ATS compliant.
-- Bug fixes
+# New in SDK 3.14.0
+- Ad viewability measurements are now included
 
 # OS Support and iOS 10
-- iOS 7 is the minimum OS version supported iOS release
-- In iOS 9 and 10, App Transport Security (ATS) is the default setting, which requires apps to make
-network calls only over SSL. We are working with our partners to facilitate the transition to support this change to ensure compliance. In the meantime, if you want to release apps that support iOS 9/10, you will need to disable ATS in order to ensure everything continues to work as expected. To do so, just add the following to the plist of your apps:
-```
-        <key>NSAppTransportSecurity</key> 
-        <dict>
-          <key>NSAllowsArbitraryLoads</key>
-          <true/>
-        </dict>
+- iOS 8 is the minimum OS version supported iOS release
+- App Transport Security (ATS) is fully supported
 ```
 - Add `Bundle display name` to the plist of your apps for iOS 9. For instance
 ```
