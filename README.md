@@ -10,11 +10,7 @@ Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com)
 # New in SDK 3.14.0
 - Ad viewability measurements are now included
 
-# OS Support
-- iOS 8 is the minimum OS version supported iOS release
-- App Transport Security (ATS) is fully supported
-- Additional requirements for your app:
-```
+# OS Support (ios 8 and above)
 - Add `Bundle display name` to the plist of your apps for iOS 9. For instance
 ```
 	<key>CFBundleDisplayName</key>
