@@ -1,14 +1,14 @@
 # TremorVideo-iOS-SDK
 
-- SDK Version: 3.14
-- Release Date: April 12, 2017
-- Relesee Notes: Please visit [iOS SDK Releases Notes](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.)
+- SDK Version: 3.14.1
+- Release Date: July 12, 2017
+- Relesee Notes: Please visit [iOS SDK Releases Notes] (https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.
 
 # To Download
 Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. 
 
-# New in SDK 3.14.0
-- Ad viewability measurements are now included
+# New in SDK 3.14.1
+- IAS Ad viewability measurements are now included. Video 360 support.
 
 # OS Support (ios 8 and above)
 - Add `Bundle display name` to the plist of your apps for iOS 9. For instance
