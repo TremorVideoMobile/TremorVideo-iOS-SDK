@@ -7,16 +7,13 @@
 # To Download
 Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. 
 
-# New in SDK 3.14.1
-- IAS Ad viewability measurements are now included. Video 360 support.
+# New in SDK 3.15.0
+- VPAID 2.0 is now supported
 
 # OS Support (ios 8 and above)
-- Add `Bundle display name` to the plist of your apps for iOS 9. For instance
-```
-	<key>CFBundleDisplayName</key>
-	<string>Bundle Display Name</string>
-```
+- Add 'CFBundleDisplayName' to the plist of your apps for iOS 9 or later
 - Add 'NSPhotoLibraryUsageDescription' to your plist to allow users to save images from ads.
+- Add 'NSLocationAlwaysUsageDescription' or 'NSLocationWhenInUseUsageDescription' to allow geo targeting.
 
 # Orientation
 Tremor SDK requires applications to support all orientations, both portrait and landscape. If your application does not support landscape mode, you should ensure the UI in your application is portrait only. Here is an example (for iOS 6 and later):
