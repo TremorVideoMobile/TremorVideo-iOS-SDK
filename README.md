@@ -8,7 +8,7 @@
 Please [contact the publisher team](mailto:PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. 
 
 # New in SDK 3.15.0
-- VPAID 2.0 is now supported
+- VPAID 2.0 (with VAST 2.0) is now supported
 
 # OS Support (ios 8 and above)
 - Add 'CFBundleDisplayName' to the plist of your apps for iOS 9 or later
