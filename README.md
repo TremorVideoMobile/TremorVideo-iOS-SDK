@@ -5,7 +5,7 @@
 - Relesee Notes: Please visit [iOS SDK Releases Notes](https://github.com/TremorVideoMobile/TremorVideo-iOS-SDK/wiki/iOS-SDK-Release-Notes) to check details of each iOS SDK release.
 
 # To Download
-Please [contact the publisher team](mailto: PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. 
+Please [contact the publisher team](PublisherManagement@Tremorvideo.com) at Tremor Video to download the latest SDK. 
 
 # New in SDK 3.15.0
 - VPAID 2.0 is now supported
